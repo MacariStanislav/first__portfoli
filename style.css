@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: cormorant
-    ;
+    font-family: cormorant;
     overflow-x: hidden;
 }
 
@@ -10,10 +9,15 @@ header ul {
     display: flex;
     align-items: center;
     gap: 65px;
-    margin-left: 230px;
+    margin-left: 193px;
     padding-right: 10px;
     margin-right: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.prostranst {
+    margin-left: 0px;
+    text-decoration: none;
+    color: black;
 }
 
 li {
@@ -23,7 +27,6 @@ li {
 
 
 header {
-    display: flex;
     display: flex;
     align-items: center;
     width: 80%;
@@ -57,24 +60,17 @@ header a {
 }
 
 .image__main {
-    display: flex;
-    width: 100%;
-    height: 500px;
+    display: grid;
 }
 
-.image__main img .import {
-    display: block;
-    width: 100%;
-    height: auto;
 
-}
 
 .image__main a {
     display: flex;
     padding-left: 200px;
     color: white;
     position: absolute;
-  
+
     font-size: 60px;
     line-height: 100%;
     padding-top: 254px;
@@ -84,14 +80,17 @@ header a {
 .image__main p {
     display: flex;
     padding-left: 200px;
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
-  
     font-size: 24px;
     line-height: auto;
-    padding-top: 370px;
+    padding-top: 394px;
     letter-spacing: 0%;
-    opacity: 80%;
+    opacity: 90%;
+}
+
+.image__main span {
+    font-size: 24px;
 }
 
 .text {
@@ -100,10 +99,10 @@ header a {
     font-size: 40px;
     display: flex;
     text-align-last: center;
-    font-style:  italic;
+    font-style: italic;
     font-family: cormorant;
     opacity: 90%;
-    letter-spacing: 0;
+
 
 }
 
@@ -115,43 +114,49 @@ header a {
     margin-right: 200px;
     height: 335px;
     display: grid;
-    
+
 }
+
 .tea__color ul {
     display: flex;
     justify-content: space-around;
 
 }
+
 .tea__color ul li {
     text-align: center;
     display: grid;
-}   
+}
 
 .tea__color ul li img {
     width: 208px;
     height: 208px;
 }
+
 .tea__text {
     padding-left: 421px;
- font-size: 40px;
-  
-   
+    font-size: 40px;
+
+
 
 }
+
 .client__say {
     display: grid;
     background-color: #F7F2EA;
     margin-top: 150px;
-    
+
     height: 397px;
 
 }
-.client__say__import{
+
+.client__say__import {
     font-size: 40px;
     padding-top: 60px;
     padding-left: 641px;
     display: flex;
 }
+
 .client__say ul {
     width: 1198px;
     height: 169px;
@@ -161,15 +166,19 @@ header a {
     gap: 26px;
     justify-content: space-around;
 }
+
 .client__say ul li p {
-   font-size: 16px;
-   font-style: italic;
+    width: 280px;
+
+    font-size: 16px;
+    font-style: italic;
 
 
 }
+
 .client__say ul li div {
     font-size: 20px;
-    font-style: SemiBold;
+    font-weight: Bold;
 }
 
 
@@ -178,24 +187,27 @@ header a {
     margin-top: 150px;
     margin-left: 200px;
     width: 1142px;
-    
+
 }
-.tea__blog__import{
+
+.tea__blog__import {
     font-size: 40px;
     padding-left: 470px;
     display: flex;
 }
-.tea__blog ul{
-    display: flex;
-padding: 0px;
 
- 
+.tea__blog ul {
+    display: flex;
+    padding: 0px;
+
+
 }
-.tea__blog ul li{
+
+.tea__blog ul li {
     display: flex;
     width: 540px;
     height: 180px;
-    
+
 }
 
 .tea__blog ul li div {
@@ -206,13 +218,15 @@ padding: 0px;
     padding-left: 20px;
 
 }
+
 .tea__blog ul li div span {
-    font-size: 13px ;
+    font-size: 13px;
     font-style: light;
     padding-top: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-} 
+}
+
 .tea__blog ul li div a {
     color: black;
     text-decoration: none;
@@ -220,24 +234,133 @@ padding: 0px;
     font-size: 13px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.li__margin{
+
+.li__margin {
     margin-right: 57px;
 }
-.blog__all {
-        margin-left: 486px;
-        border: 1px solid black;
-      padding-top: 12px;
-      padding-bottom: 12px;
-      padding-left: 41px;
-      padding-right: 41px;
-        display: inline-block;
-        text-decoration: none;
-        font-size: 20px;
-        color: black;
-        margin-top: 60px;
 
+.blog__all {
+    margin-left: 486px;
+    border: 1px solid black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 41px;
+    padding-right: 41px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 60px;
+
+}
+
+.mailing__liss {
+    display: flex;
+    background-color: #F7F2EA;
+    height: 418px;
 }
 
 
 
+.container h2 {
+    font-size: 40px;
+    font-family: cormorant;
+    padding-top: 100px;
+    font-style: Regular;
+    padding-left: 200px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
 
+.image__flower {
+    position: absolute;
+    margin-left: 882px;
+}
+
+.mailing__list__inner {
+    display: flex;
+}
+
+.mailing__list__text {
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 350;
+    font-style: Light;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.mailing__list__form {
+    margin-left: 40px;
+
+}
+
+label {
+    display: flex;
+}
+
+.input-container {
+    position: relative;
+    height: 48px;
+    background-image: url('know tea/Line 5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin-bottom: -8px;
+    width: 321px;
+}
+.mailing__list__email {
+    width: 250px;
+    padding-left: 19px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    height: 100%;
+}
+
+.mailing__list__email::placeholder {
+    font-size: 20px;
+    color: #B8B58B;
+    
+  
+}
+
+.div__email {
+    display: flex;
+    align-items: center;
+    padding-top: 52px;
+}
+
+
+
+.mailing__list__btn {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 41px;
+    padding-right: 41px;
+    margin-left: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+ 
+
+}
+
+.checkbox {
+   
+    scale: 0.7;
+    margin-bottom: 35px;
+    
+}
+
+
+.checkbox__text {
+    font-weight: 100;
+    margin-right: 211px;
+    width: 469px;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
