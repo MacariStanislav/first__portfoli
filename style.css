@@ -1,8 +1,17 @@
+html,
 body {
+    display: inline-block;
+    font-family: cormorant;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: cormorant;
     overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 header ul {
@@ -13,6 +22,9 @@ header ul {
     padding-right: 10px;
     margin-right: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.new__navbar{
+    display: none;
 }
 
 .prostranst {
@@ -34,6 +46,9 @@ header {
     margin: 0 auto;
     padding-top: 20px;
     margin-bottom: 61px;
+}
+.header__div{
+    display: flex;
 }
 
 
@@ -258,7 +273,7 @@ header a {
 .mailing__liss {
     display: flex;
     background-color: #F7F2EA;
-    height: 418px;
+    height: 495px;
     margin-top: 165px;
 }
 
@@ -369,22 +384,26 @@ label {
     font-size: 13px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .priority {
     display: grid;
     margin-top: 140px;
     margin-left: 200px;
 }
-.priority h2{
+
+.priority h2 {
     font-size: 40px;
     font-family: cormorant;
     margin-left: 497px;
     font-weight: 400;
-   
+
     padding: 0px;
 }
-.priority__nav{
+
+.priority__nav {
     display: flex;
 }
+
 .priority__nav ul {
     gap: 49px;
     padding: 0px;
@@ -392,46 +411,54 @@ label {
     justify-content: space-around;
     margin: 0px;
 }
-.priority__nav ul li{
+
+.priority__nav ul li {
     display: grid;
-    
-  
+
+
 }
+
 .priority__nav ul li h3 {
     margin: 10px;
     font-size: 30px;
     font-weight: 300;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .priority__nav ul li span {
     font-size: 20px;
-    font-weight:bolder;
+    font-weight: bolder;
 
     text-align: center;
-  
+
 }
-.priority__nav ul li .images{
+
+.priority__nav ul li .images {
     margin-top: 40px;
     margin-bottom: 8px;
     display: flex;
-align-items: center;
-justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
-.info__navbar{
+
+.info__navbar {
     margin-top: 150px;
     background-color: #F7F2EA;
-display: flex;
-height: 593px;
+    display: flex;
+    height: 593px;
+
 }
+
 .info__products {
     display: grid;
     margin-top: 100px;
     margin-left: 200px;
     padding: 0px;
 }
+
 .info__products ul li h2 {
-font-size: 24px;
-font-family: cormorant;
+    font-size: 24px;
+    font-family: cormorant;
 }
 
 .info__products ul {
@@ -441,18 +468,21 @@ font-family: cormorant;
     padding: 0px;
     flex-direction: column;
 }
+
 .info__products ul li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
-    
+
 }
+
 .info__company {
     display: grid;
     margin-top: 100px;
-    margin-left: 213px;
+    margin-left: 113px;
 
 }
+
 .info__company ul {
     margin: 0px;
     width: 155px;
@@ -461,45 +491,238 @@ font-family: cormorant;
     display: flex;
     flex-direction: column;
 }
+
 .info__company ul li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
 }
 
-.info__company ul li h2{
+.info__company ul li h2 {
     font-size: 24px;
-font-family: cormorant;
+    font-family: cormorant;
 }
+
 .info__tea {
-display: flex;
-flex-direction: column;
-margin-top:179px ;
-margin-left: 155px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 179px;
+    margin-left: 155px;
 
 }
+
 .info__tea p {
     width: 230px;
-    
-margin: 0px;
-padding: 0px;
-font-size: 16px;
-font-weight: 300; 
-font-style: italic; 
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .info__tea span {
     width: 100px;
-font-size: 12px;
-margin-top: 20px;
-font-weight: 300; 
-font-style: italic; 
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-style: italic;
 }
+
 .info__contact {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
+    margin-left: 41px;
+}
+
+.info__contact h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+
+    font-family: cormorant;
+}
+
+.info__contact p {
+    margin: 0px;
+    margin-top: 50px;
+    font-size: 13px;
+    width: 270px;
+    height: 36px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .contact ul {
     display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.li__margin {
+    margin-top: 20px;
+    margin-left: 40px;
+
+    gap: 10px;
+
+}
+
+.li__margin-1 {
+    margin-top: 20px;
+}
+
+.li__margin p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.li__margin p span {
+    margin-left: 10px;
+}
+
+.instagram {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.text__23 {
+    margin-top: 184px;
+    font-family: normal;
+    font-style: normal;
+    font-size: 16px;
+    width: 150px;
+    font-weight: 100;
+}
+
+.image__bank {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 65%;
+    gap: 20px;
+}
+
+.image__line3 img {
+    width: auto;
+    height: auto;
+}
+
+@media (min-width: 425px) and (max-width: 1024px) {
+    .li__text {
+        display: none;
+    }
+    .header__div {
+        display: none;
+    }
+
+    .image__line3 img{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 117%;
+    }
+    .image__line3 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .image__logo {
+        margin-left: 177%;
+    }
+.new__navbar{
+    display: flex;
+}
+
+    .container {}
+
+    .container h2 {
+        margin-top: -42px;
+        margin-left: 26%;
+
+    }
+
+    .mailing__list__inner {
+        flex-direction: column;
+    }
+
+    .mailing__list__text {
+        width: 47%;
+        margin-left: 404px;
+        margin-top: 50px;
+        display: flex;
+        text-align: center;
+    }
+    header a {
+        margin-left: 100%;
+
+    }
+
+    .div__email {
+
+        margin-left: 30%;
+    }
+
+    .input-container {
+        width: 399px;
+    }
+
+    label {
+        margin-left: 30%;
+        display: flex;
+    }
+
+    .checkbox__text {
+
+        width: 513px;
+    }
+
+    .image__flower {
+
+        margin-left: 658px;
+        height: 507px;
+    }
+
+    .priority__nav ul {
+        gap: 30px;
+        column-gap: 240px;
+        padding: 0px;
+        display: grid;
+        justify-content: space-around;
+        margin: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 14%;
+    }
+
+    .priority h2 {
+
+        margin-left: 33%;
+    }
+
+    .info__products {
+
+        margin-left: 10%;
+
+    }
+
+    .info__company ul {
+
+        gap: 31px;
+    }
+
+
+    .image__bank {
+     
+        margin-top: 10%;}
+        .info__tea {
+            margin-top: 7%;
+            margin-left: 6%;
+        }
+        .info__contact {
+           
+            margin-left: 12%;
+        }
 }
